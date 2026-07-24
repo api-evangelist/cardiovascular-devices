@@ -1,8 +1,25 @@
 aid: cardiovascular-devices
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cardiovascular-devices.png
 name: Cardiovascular Devices
-description: 'Cardiovascular Devices is a company surfaced as a portfolio company of kleiner-perkins and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Cardiovascular Devices was an early-stage healthcare company backed by Kleiner Perkins,
+  which lists it in its partnerships archive as partnered since 1982, sector healthcare, stage early,
+  and described simply as "cardiovascular monitoring devices". Kleiner Perkins records the company''s
+  status as acquired by 3M. It is a historical medical-device portfolio company that predates the
+  public web: enrichment found no live corporate website, no developer portal, no documentation, and
+  no public API surface of any kind, so this profile carries identity and provenance only. It is
+  retained in the API Evangelist network as a resolved venture-portfolio lead rather than as an active
+  API provider, and no artifacts were generated because there is nothing real to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/cardiovascular-devices/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +27,28 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: 3M
+x-partnered-since: '1982'
+x-stage: early
+x-no-api-surface: true
+x-identity-source: https://www.kleinerperkins.com/partnerships/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Medical Devices
+- Cardiovascular
+- Medical Technology
+- Health
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
