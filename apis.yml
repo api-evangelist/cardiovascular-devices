@@ -32,6 +32,9 @@ description: 'Cardiovascular Devices was an early-stage healthcare company backe
   retained in the API Evangelist network as a resolved venture-portfolio lead rather than as an active
   API provider, and no artifacts were generated because there is nothing real to harvest.'
 url: https://raw.githubusercontent.com/api-evangelist/cardiovascular-devices/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "It is a historical medical-device portfolio company that predates the public web: enrichment found no live corporate website, no developer portal, no documentation, and no public API surface of any ki"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
